@@ -1,12 +1,12 @@
 # menu
 menu:
   Home: .
-  Archives: archives  # 归档
+  # Archives: archives  # 归档
   Categories: categories  # 分类
-  Tags: tags  # 标签
-  Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
+  # Tags: tags  # 标签
+  # Repository: repository  # github repositories
+  # Books: books  # 豆瓣书单
+  # Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -22,7 +22,7 @@ menu_icons:
   about: icon-cup-fill
 
 # rss
-rss: /atom.xml
+# rss: /atom.xml
 
 # Site
 site:
@@ -33,8 +33,8 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  board: <p>Blablabla!</p>
+  copyright: false
 
 # config
 config:
@@ -56,12 +56,12 @@ pagination:
 # Sidebar
 sidebar: right
 widgets:
-  - board  
+  - board
   - category
   - tag
   - tagcloud
-  - archive
-  - recent_posts
+  # - archive
+  # - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -83,7 +83,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -96,13 +96,13 @@ donate:
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
 share:
-  enable: true  # 是否启用分享
+  enable: false  # 是否启用分享
   sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
   mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
 
 # Github
 github: 
-  username: cofess  # github username
+  username: morcinus  # github username
 
 # Comment
 # Gitment
@@ -187,51 +187,51 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: FIT Flashcards
+  author_title: "Výpisky a flashcards"
+  author_description: ""
+  location: null
+  follow: https://github.com/Morcinus
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
-  skills:
-    Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
-  # My Personal Links
-  links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
-  # My Personal Labels
-  labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
-  # My Personal Works
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
-  # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  # skills:
+  #   Git: ★★★☆☆
+  #   Gulp: ★★★☆☆
+  #   Javascript: ★★★☆☆
+  #   HTML+CSS: ★★★☆☆
+  #   Bootstrap: ★★★☆☆
+  #   ThinkPHP: ★★★☆☆
+  #   平面设计: ★★★☆☆
+  # # My Personal Links
+  # links:
+  #   Github: https://github.com/cofess
+  #   Blog: http://blog.cofess.com
+  #   微博: http://weibo.com/cofess
+  #   花瓣: http://huaban.com/cofess
+  #   Behance: https://www.behance.net/cofess
+  # # My Personal Labels
+  # labels:
+  #   - lab1
+  #   - lab2
+  #   - lab3
+  #   - lab4
+  #   - lab5
+  # # My Personal Works
+  # works:
+  #   name:
+  #     link: http://www.example.com
+  #     date: 2016
+  # # My Personal Projects
+  # projects:
+  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
